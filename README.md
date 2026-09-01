@@ -1,7 +1,7 @@
 # 🇱🇰 lankapost - Sri Lanka Postal Codes & Zip Codes Dataset
 
-[![npm version](https://img.shields.io/npm/v/lankapost.svg?color=blue)](https://www.npmjs.com/package/lankapost)
-[![PyPI version](https://img.shields.io/pypi/v/lankapost.svg?color=green)](https://pypi.org/project/lankapost/)
+[![NPM Version](https://img.shields.io/npm/v/lankapost?logo=npm&logoColor=white&color=cb3837)](https://www.npmjs.com/package/lankapost)
+[![PyPI Version](https://img.shields.io/pypi/v/lankapost?logo=pypi&logoColor=white&color=3776ab)](https://pypi.org/project/lankapost/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Records Count](https://img.shields.io/badge/Records-2%2C111%20Cleaned-brightgreen.svg)]()
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-0-orange.svg)]()
