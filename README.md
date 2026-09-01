@@ -22,7 +22,7 @@ Access the dataset directly over free, lightning-fast global CDNs (jsDelivr / un
 ### Direct Fetch Example (Vanilla JS / React / Vue / Flutter / Mobile)
 ```javascript
 // Fetch directly from global CDN
-const response = await fetch("https://cdn.jsdelivr.net/gh/qaadi/lankapost@main/data/postal_codes.json");
+const response = await fetch("https://cdn.jsdelivr.net/gh/AbQaadir/lankapost@main/data/postal_codes.json");
 const postalCodes = await response.json();
 console.log(`Loaded ${postalCodes.length} postal codes!`);
 ```
