@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "lankapost"
-version = "1.0.0"
+version = "1.0.1"
 description = "Comprehensive, clean, and zero-dependency dataset and search utility for Sri Lanka postal codes and post offices."
 readme = "README.md"
 authors = [{ name = "Antigravity Lab" }]
