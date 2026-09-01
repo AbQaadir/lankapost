@@ -22,7 +22,29 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-keywords = ["lankapost", "sri-lanka", "postal-codes", "zip-codes", "post-offices", "colombo", "kandy", "galle"]
+keywords = [
+    "lankapost",
+    "sri-lanka",
+    "sri-lanka-postal-codes",
+    "sri-lanka-zip-codes",
+    "sri-lanka-pincode",
+    "postal-codes",
+    "zip-codes",
+    "postcodes",
+    "pincode",
+    "post-offices",
+    "colombo-postal-codes",
+    "colombo",
+    "kandy",
+    "galle",
+    "jaffna",
+    "negombo",
+    "districts",
+    "provinces",
+    "address-validation",
+    "ecommerce-sri-lanka",
+    "slpost",
+]
 requires-python = ">=3.8"
 dependencies = []
 
