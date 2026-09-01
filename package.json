@@ -41,10 +41,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qaadi/lankapost.git"
+    "url": "git+https://github.com/AbQaadir/lankapost.git"
   },
   "bugs": {
-    "url": "https://github.com/qaadi/lankapost/issues"
+    "url": "https://github.com/AbQaadir/lankapost/issues"
   },
-  "homepage": "https://github.com/qaadi/lankapost#readme"
+  "homepage": "https://github.com/AbQaadir/lankapost#readme"
 }

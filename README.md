@@ -15,9 +15,9 @@ The most comprehensive, accurate, and clean dataset of Sri Lankan Postal Codes (
 Access the dataset directly over free, lightning-fast global CDNs (jsDelivr / unpkg) for Jamstack websites, mobile apps, or cURL:
 
 - **Flat JSON Dataset (2,111 records)**:  
-  `https://cdn.jsdelivr.net/gh/qaadi/lankapost@main/data/postal_codes.json`
+  `https://cdn.jsdelivr.net/gh/AbQaadir/lankapost@main/data/postal_codes.json`
 - **CSV Format**:  
-  `https://cdn.jsdelivr.net/gh/qaadi/lankapost@main/data/postal_codes.csv`
+  `https://cdn.jsdelivr.net/gh/AbQaadir/lankapost@main/data/postal_codes.csv`
 
 ### Direct Fetch Example (Vanilla JS / React / Vue / Flutter / Mobile)
 ```javascript
@@ -144,7 +144,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 Future<List<dynamic>> fetchSriLankaPostalCodes() async {
-  final url = Uri.parse('https://cdn.jsdelivr.net/gh/qaadi/lankapost@main/data/postal_codes.json');
+  final url = Uri.parse('https://cdn.jsdelivr.net/gh/AbQaadir/lankapost@main/data/postal_codes.json');
   final response = await http.get(url);
   if (response.statusCode == 200) {
     return jsonDecode(response.body);
