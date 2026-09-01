@@ -1,0 +1,49 @@
+{
+  "name": "lanka-postal-codes",
+  "version": "1.0.0",
+  "description": "Comprehensive, clean, and zero-dependency dataset and search utility for Sri Lanka postal codes and post offices.",
+  "main": "src/index.js",
+  "module": "src/index.mjs",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs",
+      "require": "./src/index.js"
+    },
+    "./data": "./data/postal_codes.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "data/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node tests/test_js.js"
+  },
+  "keywords": [
+    "sri-lanka",
+    "postal-codes",
+    "zip-codes",
+    "post-offices",
+    "sri-lanka-post",
+    "lanka",
+    "colombo",
+    "kandy",
+    "galle",
+    "districts",
+    "provinces"
+  ],
+  "author": "Antigravity Lab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qaadi/lanka-postal-codes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qaadi/lanka-postal-codes/issues"
+  },
+  "homepage": "https://github.com/qaadi/lanka-postal-codes#readme"
+}
