@@ -1,6 +1,6 @@
 {
   "name": "lankapost",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Comprehensive, clean, and zero-dependency dataset and search utility for Sri Lanka postal codes and post offices.",
   "main": "src/index.js",
   "module": "src/index.mjs",
