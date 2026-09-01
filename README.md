@@ -1,7 +1,7 @@
-# 🇱🇰 Sri Lanka Postal Codes (`lanka-postal-codes`)
+# 🇱🇰 lankapost
 
-[![npm version](https://img.shields.io/npm/v/lanka-postal-codes.svg?color=blue)](https://www.npmjs.com/package/lanka-postal-codes)
-[![PyPI version](https://img.shields.io/pypi/v/lanka-postal-codes.svg?color=green)](https://pypi.org/project/lanka-postal-codes/)
+[![npm version](https://img.shields.io/npm/v/lankapost.svg?color=blue)](https://www.npmjs.com/package/lankapost)
+[![PyPI version](https://img.shields.io/pypi/v/lankapost.svg?color=green)](https://pypi.org/project/lankapost/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Records Count](https://img.shields.io/badge/Records-2%2C111%20Cleaned-brightgreen.svg)]()
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-0-orange.svg)]()
@@ -15,16 +15,14 @@ The most comprehensive, accurate, and clean dataset of Sri Lankan Postal Codes (
 Access the dataset directly over free, lightning-fast global CDNs (jsDelivr / unpkg) for Jamstack websites, mobile apps, or cURL:
 
 - **Flat JSON Dataset (2,111 records)**:  
-  `https://cdn.jsdelivr.net/gh/qaadi/lanka-postal-codes@main/data/postal_codes.json`
-- **Grouped by Province & District JSON**:  
-  `https://cdn.jsdelivr.net/gh/qaadi/lanka-postal-codes@main/data/postal_codes_by_district.json`
+  `https://cdn.jsdelivr.net/gh/qaadi/lankapost@main/data/postal_codes.json`
 - **CSV Format**:  
-  `https://cdn.jsdelivr.net/gh/qaadi/lanka-postal-codes@main/data/postal_codes.csv`
+  `https://cdn.jsdelivr.net/gh/qaadi/lankapost@main/data/postal_codes.csv`
 
 ### Direct Fetch Example (Vanilla JS / React / Vue / Flutter / Mobile)
 ```javascript
 // Fetch directly from global CDN
-const response = await fetch("https://cdn.jsdelivr.net/gh/qaadi/lanka-postal-codes@main/data/postal_codes.json");
+const response = await fetch("https://cdn.jsdelivr.net/gh/qaadi/lankapost@main/data/postal_codes.json");
 const postalCodes = await response.json();
 console.log(`Loaded ${postalCodes.length} postal codes!`);
 ```
@@ -35,11 +33,11 @@ console.log(`Loaded ${postalCodes.length} postal codes!`);
 
 ### Installation
 ```bash
-npm install lanka-postal-codes
+npm install lankapost
 # or
-yarn add lanka-postal-codes
+yarn add lankapost
 # or
-pnpm add lanka-postal-codes
+pnpm add lankapost
 ```
 
 ### Usage (ESM & TypeScript)
@@ -51,8 +49,9 @@ import {
   getByProvince,
   getAll,
   getDistricts,
-  getProvinces
-} from 'lanka-postal-codes';
+  getProvinces,
+  getGrouped
+} from 'lankapost';
 
 // 1. Instant O(1) Lookup by Postal Code
 const postOffice = getByPostalCode('20850');
@@ -80,11 +79,15 @@ const southernOffices = getByProvince('Southern Province');
 // 5. Get Metadata Lists
 const allDistricts = getDistricts(); // 25 districts
 const allProvinces = getProvinces(); // 9 provinces
+
+// 6. Dynamic Grouped Hierarchy
+const grouped = getGrouped();
+console.log(grouped['Western Province']['Colombo']);
 ```
 
 ### Usage (CommonJS / Node.js)
 ```javascript
-const { getByPostalCode, search, getByDistrict } = require('lanka-postal-codes');
+const { getByPostalCode, search, getByDistrict } = require('lankapost');
 
 const office = getByPostalCode('40150'); // Achchuvely, Jaffna
 ```
@@ -95,12 +98,13 @@ const office = getByPostalCode('40150'); // Achchuvely, Jaffna
 
 ### Installation
 ```bash
-pip install lanka-postal-codes
+pip install lankapost
 ```
 
 ### Usage
 ```python
-from lanka_postal_codes import (
+import lankapost
+from lankapost import (
     get_by_postal_code,
     search,
     get_by_district,
@@ -140,7 +144,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 Future<List<dynamic>> fetchSriLankaPostalCodes() async {
-  final url = Uri.parse('https://cdn.jsdelivr.net/gh/qaadi/lanka-postal-codes@main/data/postal_codes.json');
+  final url = Uri.parse('https://cdn.jsdelivr.net/gh/qaadi/lankapost@main/data/postal_codes.json');
   final response = await http.get(url);
   if (response.statusCode == 200) {
     return jsonDecode(response.body);

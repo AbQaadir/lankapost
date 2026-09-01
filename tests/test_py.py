@@ -1,5 +1,5 @@
 import unittest
-from lanka_postal_codes import (
+from lankapost import (
     get_all,
     get_by_postal_code,
     search,
@@ -11,7 +11,7 @@ from lanka_postal_codes import (
 )
 
 
-class TestLankaPostalCodes(unittest.TestCase):
+class TestLankaPost(unittest.TestCase):
     def test_get_all(self):
         all_records = get_all()
         self.assertEqual(len(all_records), 2111)

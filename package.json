@@ -1,5 +1,5 @@
 {
-  "name": "lanka-postal-codes",
+  "name": "lankapost",
   "version": "1.0.0",
   "description": "Comprehensive, clean, and zero-dependency dataset and search utility for Sri Lanka postal codes and post offices.",
   "main": "src/index.js",
@@ -24,6 +24,7 @@
     "test": "node tests/test_js.js"
   },
   "keywords": [
+    "lankapost",
     "sri-lanka",
     "postal-codes",
     "zip-codes",
@@ -40,10 +41,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qaadi/lanka-postal-codes.git"
+    "url": "git+https://github.com/qaadi/lankapost.git"
   },
   "bugs": {
-    "url": "https://github.com/qaadi/lanka-postal-codes/issues"
+    "url": "https://github.com/qaadi/lankapost/issues"
   },
-  "homepage": "https://github.com/qaadi/lanka-postal-codes#readme"
+  "homepage": "https://github.com/qaadi/lankapost#readme"
 }
