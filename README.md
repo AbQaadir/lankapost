@@ -1,7 +1,7 @@
-# 🇱🇰 lankapost - Sri Lanka Postal Codes & Zip Codes Dataset
+# lankapost - Sri Lanka Postal Codes & Zip Codes Dataset
 
-[![NPM Version](https://img.shields.io/npm/v/lankapost?logo=npm&logoColor=white&color=cb3837)](https://www.npmjs.com/package/lankapost)
-[![PyPI Version](https://img.shields.io/pypi/v/lankapost?logo=pypi&logoColor=white&color=3776ab)](https://pypi.org/project/lankapost/)
+[![NPM Version](https://img.shields.io/npm/v/lankapost?color=cb3837)](https://www.npmjs.com/package/lankapost)
+[![PyPI Version](https://img.shields.io/pypi/v/lankapost?color=3776ab)](https://pypi.org/project/lankapost/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Records Count](https://img.shields.io/badge/Records-2%2C111%20Cleaned-brightgreen.svg)]()
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-0-orange.svg)]()
@@ -13,11 +13,11 @@ Optimized for **E-commerce checkout forms**, **address validation**, **logistics
 
 ---
 
-## ⚡ Quick Reference: Colombo Zones & Major Cities
+## Quick Reference: Colombo Zones & Major Cities
 
 Sri Lanka uses a **5-digit postal code system**. Colombo postal zones are numbered from **Colombo 01 (`00100`) to Colombo 15 (`01500`)**.
 
-### 🏙️ Colombo Postal Zones (Colombo 1 - 15)
+### Colombo Postal Zones (Colombo 1 - 15)
 
 | Zone | Area / Location | Postal Code | District | Province |
 | :--- | :--- | :--- | :--- | :--- |
@@ -39,7 +39,7 @@ Sri Lanka uses a **5-digit postal code system**. Colombo postal zones are number
 
 ---
 
-### 📍 Popular Commercial Hubs & Key Cities Across Sri Lanka
+### Popular Commercial Hubs & Key Cities Across Sri Lanka
 
 | City / Town | Postal Code | District | Province |
 | :--- | :--- | :--- | :--- |
@@ -71,7 +71,7 @@ Sri Lanka uses a **5-digit postal code system**. Colombo postal zones are number
 
 ---
 
-## 🌐 Instant CDN & REST API Access (No Install Needed)
+## Instant CDN & REST API Access (No Install Needed)
 
 Load the complete Sri Lanka postal code dataset directly in browsers, Jamstack sites, or mobile apps over global edge CDNs:
 
@@ -108,7 +108,7 @@ Future<List<dynamic>> fetchSriLankaPostalCodes() async {
 
 ---
 
-## 📦 JavaScript / TypeScript (Node.js & NPM)
+## JavaScript / TypeScript (Node.js & NPM)
 
 ### Installation
 ```bash
@@ -173,7 +173,7 @@ const office = getByPostalCode('00300'); // Kollupitiya, Colombo
 
 ---
 
-## 🐍 Python (PyPI)
+## Python (PyPI)
 
 ### Installation
 ```bash
@@ -213,7 +213,7 @@ print(tree["Western Province"]["Colombo"])
 
 ---
 
-## 📋 Data Schema
+## Data Schema
 
 Each postal record follows this standard JSON structure:
 
@@ -239,7 +239,7 @@ Each postal record follows this standard JSON structure:
 
 ---
 
-## 📊 Dataset Statistics
+## Dataset Statistics
 
 - **Total Postal Records**: 2,111
 - **Administrative Provinces (9)**: Central, Eastern, North Central, Northern, North Western, Sabaragamuwa, Southern, Uva, Western.
@@ -250,7 +250,7 @@ Each postal record follows this standard JSON structure:
 
 ---
 
-## ❓ Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 ### What format do Sri Lanka postal codes use?
 Sri Lanka postal codes are **5-digit numeric strings** (e.g., `00100` for Colombo 01, `20000` for Kandy). Because leading zeros are meaningful (e.g. `00100` to `01500`), postal codes should always be handled as strings rather than integers.
@@ -266,7 +266,7 @@ Please check out [CONTRIBUTING.md](CONTRIBUTING.md) or open an issue on our [Git
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run JavaScript test suite
@@ -278,6 +278,6 @@ python -m unittest tests/test_py.py
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and released under the [MIT License](LICENSE).
